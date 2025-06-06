@@ -34,7 +34,7 @@ def login():
 
 @app.route('/Principal')
 def principal():
-    return render_template("principal.html")
+    return render_template("Principal.html")
 
 @app.route('/RegistrarCartera')
 def form_registro():
